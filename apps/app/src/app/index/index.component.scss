@@ -1,0 +1,76 @@
+.container{
+  background-image:url(../../assets/index/largebac.png);
+  background-size:cover;
+  height: 100%;
+  width: 100%;
+  .left{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    width: 27%;
+    .left-top{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      background-image: url(../../assets/index/headerTitle.png);
+      background-repeat:no-repeat;
+      margin-left: 35px;
+      .leftTitle{
+        display: flex;
+        span{
+          margin: 52px 10px 10px 0px;
+          color: #00F0FF;
+          font-size: 22px;
+        }
+      }
+      .echartTotal{
+        width: 427px;
+        height: 314px;
+
+      }
+    }
+    .left-bottom{
+      display: flex;
+      flex-direction: column;
+      height:100%;
+      width: 100%;
+      margin-left:35px;
+      //margin-top: 15px;
+      background-image: url(../../assets/index/leftbottom.png);
+      background-repeat:no-repeat;
+      .leftTitle{
+        display: flex;
+        span{
+          margin: 52px 10px 10px 0px;
+          color: #00F0FF;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .right-top{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../assets/index/righttop.png);
+    background-repeat:no-repeat;
+    width: 50%;
+    height:100%;
+    padding-right: 15px;
+    .topTitle{
+      span{
+        margin: 52px 10px 10px 0px;
+        color: #00F0FF;
+        font-size: 22px;
+      }
+    }
+  }
+  .rignt-content{
+    display: flex;
+    flex-direction:column;
+    height: 44%;
+    width: 64%;
+    background-image: url(../../assets/index/rigntCotent.png);
+    background-repeat:no-repeat;
+  }
+}
